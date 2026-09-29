@@ -24,6 +24,7 @@ $engine = new GravityEngine();
 // 担当A: $engine->spinFlywheel();
 // 担当B: $engine->stabilizeRotor();
  // ← これは間違い、書き換えろ
+$engine->spinFlywheel(); // ← これは間違い、書き換えろ
 // ==========================================
 
 $engine->stabilizeRotor();
